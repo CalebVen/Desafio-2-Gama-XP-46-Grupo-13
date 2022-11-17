@@ -6,12 +6,12 @@ async function cadastrarEvento(evento) {
   evento.preventDefault()
 
   const dados = {
-    name: "Assassin's Creed",
-    poster: src = "https://files.meiobit.com/wp-content/uploads/2021/10/Assassins-Creed-.jpg",
-    attractions: ["Ezio Auditore, Bayek, Eivor Wolf-Kissed"],
-    description: "Nada é verdade. Tudo é permitido",
-    scheduled: new Date ("2022/12/21"),
-    number_tickets: "50",
+    name: "",
+    poster: src = "",
+    attractions: [""],
+    description: "N",
+    scheduled: new Date (""),
+    number_tickets: "",
   }
   
   const init = {
