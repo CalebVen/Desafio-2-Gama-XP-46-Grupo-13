@@ -23,8 +23,8 @@ async function getEvents() {
                 <td>${event.attractions}</td>
                 <td>
                     <a href="/Desafio-2-Gama-XP-46-Grupo-13/reservas.html" class="btn btn-dark">ver reservas</a>
-                    <a href="/Desafio-2-Gama-XP-46-Grupo-13/editar-evento.html/${event._id}" class="btn btn-secondary">editar</a>
-                    <a href="/Desafio-2-Gama-XP-46-Grupo-13/excluir-evento.html/${event._id}" class="btn btn-danger">excluir</a>
+                    <a href="/Desafio-2-Gama-XP-46-Grupo-13/editar-evento.html?id=${event._id}" class="btn btn-secondary">editar</a>
+                    <a href="/Desafio-2-Gama-XP-46-Grupo-13/excluir-evento.html?id=${event._id}" class="btn btn-danger">excluir</a>
                 </td>
             </tr>   
         </tbody>
