@@ -34,4 +34,4 @@ async function cadastrarEvento(evento) {
 
 }
 
-btncadastrarEvento.onclick = cadastrarEvento
+btncadastrarEvento.onclick = cadastrarEventogit
