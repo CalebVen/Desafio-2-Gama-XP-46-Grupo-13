@@ -1,10 +1,14 @@
 console.log('Cadastro-evento')
 
 const btncadastrarEvento = document.querySelector('#submit')
+const nome = document.querySelector('#nome')
+const atracoes = document.querySelector("#atracoes")
+const descricao = document.querySelector("#descricao")
+const data = document.querySelector("#data")
+const lotacao = document.querySelector("#lotacao")
 
 async function cadastrarEvento(evento) {
   evento.preventDefault()
-
   const dados = {
     name: "Assassin's Creed",
     poster: src = "https://files.meiobit.com/wp-content/uploads/2021/10/Assassins-Creed-.jpg",
