@@ -9,13 +9,14 @@ const lotacao = document.querySelector("#lotacao")
 
 async function cadastrarEvento(evento) {
   evento.preventDefault()
+  
   const dados = {
-    name: "Assassin's Creed",
-    poster: src = "https://files.meiobit.com/wp-content/uploads/2021/10/Assassins-Creed-.jpg",
-    attractions: ["Ezio Auditore"],
-    description: "Nada é verdade. Tudo é permitido.",
-    scheduled: new Date ("2022/12/21"),
-    number_tickets: "10",
+    name: nome.value,
+    poster: "link da imagem",
+    attractions: [atracoes.value],
+    description: descricao.value,
+    scheduled: data.value,
+    number_tickets: lotacao.value,
   }
   
   const init = {
@@ -33,4 +34,4 @@ async function cadastrarEvento(evento) {
 
 }
 
-btncadastrarEvento.onclick = cadastrarEvento
+btncadastrarEvento.onclick = cadastrarEventogit
