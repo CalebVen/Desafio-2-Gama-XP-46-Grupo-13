@@ -40,6 +40,14 @@ article.evento {
     width: 350px;
 }
 
+article.evento p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    min-height: 72px;
+}
+
 footer nav ul{
     list-style: none;
     display: flex;
